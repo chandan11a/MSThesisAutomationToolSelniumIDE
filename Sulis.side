@@ -1,0 +1,254 @@
+{
+  "id": "370d4f8b-3c42-4ccf-a341-e3eb2cfe77ba",
+  "version": "2.0",
+  "name": "Sulis",
+  "url": "https://sulis.ul.ie",
+  "tests": [{
+    "id": "5ae045e3-b085-4e06-81e8-6f94221437b8",
+    "name": "Sulis Test",
+    "commands": [{
+      "id": "b8f37c13-4636-44f9-a9d3-dc450af3886c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6886df57-b106-4fe1-8294-94c138bb9c7c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2afdd90f-9668-4ee9-8d52-eb2495be10a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=eid",
+      "targets": [
+        ["id=eid", "id"],
+        ["name=eid", "name"],
+        ["css=#eid", "css:finder"],
+        ["xpath=//input[@id='eid']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "19151675"
+    }, {
+      "id": "36262a23-ab96-4d03-a504-537fbc3b7298",
+      "comment": "",
+      "command": "type",
+      "target": "id=pw",
+      "targets": [
+        ["id=pw", "id"],
+        ["name=pw", "name"],
+        ["css=#pw", "css:finder"],
+        ["xpath=//input[@id='pw']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "**********"
+    }, {
+      "id": "2a7f525e-428a-4aa1-88dc-6e8a0a0dabd7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=pw",
+      "targets": [
+        ["id=pw", "id"],
+        ["name=pw", "name"],
+        ["css=#pw", "css:finder"],
+        ["xpath=//input[@id='pw']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ca53e122-df9f-45d5-9188-88be4f4fc92c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mrphs-sitesNav__menuitem:nth-child(2) span",
+      "targets": [
+        ["css=.Mrphs-sitesNav__menuitem:nth-child(2) span", "css:finder"],
+        ["xpath=//ul[@id='topnav']/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'12 Apps of Christmas 2017')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8c2a4d5-825c-4a83-b34a-4305d3741735",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mrphs-sitesNav__menuitem--myworkspace-label",
+      "targets": [
+        ["css=.Mrphs-sitesNav__menuitem--myworkspace-label", "css:finder"],
+        ["xpath=//ul[@id='topnav']/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb14b8a8-3531-44e9-9810-a25385bfcaf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(10) .Mrphs-toolsNav__menuitem--title",
+      "targets": [
+        ["css=li:nth-child(10) .Mrphs-toolsNav__menuitem--title", "css:finder"],
+        ["xpath=//nav[@id='toolMenu']/ul/li[10]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[10]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Membership')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7921be2-baa9-437e-b6b5-81a15876795a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Joinable Sites",
+      "targets": [
+        ["linkText=Joinable Sites", "linkText"],
+        ["css=.navIntraTool > li:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Joinable Sites')]", "xpath:link"],
+        ["xpath=//div[@id='col1']/div/div/ul/li[3]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sulis.ul.ie/portal/site/%7E19151675/tool/5aea672c-709f-4900-8e38-9e5079bf9f13?sakai_action=doGoto_joinable')]", "xpath:href"],
+        ["xpath=//li[3]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Joinable Sites')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c37462-f06f-482d-b3c7-2bcc25ff6a9c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join",
+      "targets": [
+        ["linkText=Join", "linkText"],
+        ["css=tr:nth-child(2) > .attach a", "css:finder"],
+        ["xpath=//a[contains(text(),'Join')]", "xpath:link"],
+        ["xpath=//div[@id='col1']/div/div/form/div/table/tbody/tr[2]/td/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sulis.ul.ie/portal/site/%7E19151675/tool/5aea672c-709f-4900-8e38-9e5079bf9f13?itemReference=77869957-5375-4d1e-99bb-723fe326b0ab&panel=Main&sakai_action=doJoin')]", "xpath:href"],
+        ["xpath=//td/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71dfc16a-c3b1-405f-b767-f6b005c7f077",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Current Sites",
+      "targets": [
+        ["linkText=My Current Sites", "linkText"],
+        ["css=.firstToolBarItem > span > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Current Sites')]", "xpath:link"],
+        ["xpath=//div[@id='col1']/div/div/ul/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://sulis.ul.ie/portal/site/%7E19151675/tool/5aea672c-709f-4900-8e38-9e5079bf9f13?panel=Main&sakai_action=doGoto_unjoinable')]", "xpath:href"],
+        ["xpath=//li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Current Sites')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bf1944d-16d9-4b81-a92a-7d9f2f4ca10a",
+      "comment": "",
+      "command": "click",
+      "target": "id=check-1",
+      "targets": [
+        ["id=check-1", "id"],
+        ["name=itemReference", "name"],
+        ["css=#check-1", "css:finder"],
+        ["xpath=//input[@id='check-1']", "xpath:attributes"],
+        ["xpath=//table[@id='currentSites']/tbody[2]/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fd670ad-dd5b-4be2-9fcf-ff7a69f74d7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=unjoin",
+      "targets": [
+        ["id=unjoin", "id"],
+        ["name=eventSubmit_doGoto_unjoinconfirm", "name"],
+        ["css=#unjoin", "css:finder"],
+        ["xpath=//input[@id='unjoin']", "xpath:attributes"],
+        ["xpath=//div[@id='col1']/div/div/form/p/input", "xpath:idRelative"],
+        ["xpath=//p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c79f2df-fada-42da-a929-e6e30dffe9f9",
+      "comment": "",
+      "command": "click",
+      "target": "name=eventSubmit_doGoto_unjoinyes",
+      "targets": [
+        ["name=eventSubmit_doGoto_unjoinyes", "name"],
+        ["css=.act > .active", "css:finder"],
+        ["xpath=//input[@name='eventSubmit_doGoto_unjoinyes']", "xpath:attributes"],
+        ["xpath=//div[@id='col1']/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ede1c807-9aef-470c-bc2d-90aa1de1eea7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.textlink",
+      "targets": [
+        ["css=.textlink", "css:finder"],
+        ["xpath=//div[@id='loginUser']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'CHANDAN KUMAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc4e635c-8cc5-4688-a621-ba2824802dc1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.textlink",
+      "targets": [
+        ["css=.textlink", "css:finder"],
+        ["xpath=//div[@id='loginUser']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'CHANDAN KUMAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "470e2827-72bf-406d-b11d-541db495e0e4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.textlink",
+      "targets": [
+        ["css=.textlink", "css:finder"],
+        ["xpath=//div[@id='loginUser']/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'CHANDAN KUMAR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a946e8d6-c055-42a5-9498-8d0d8329eb13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Mrphs-login-Message",
+      "targets": [
+        ["css=.Mrphs-login-Message", "css:finder"],
+        ["xpath=//a[@id='loginLink1']/span", "xpath:idRelative"],
+        ["xpath=//p/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab51246-f45f-4738-bc71-123aefb4e405",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e7628e12-0ea4-4b5b-abc7-fd4516dea1a1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5ae045e3-b085-4e06-81e8-6f94221437b8"]
+  }],
+  "urls": ["https://sulis.ul.ie/"],
+  "plugins": []
+}
